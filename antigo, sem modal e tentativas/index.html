@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icone na navegação da pagina-->
+    <link rel="shortcut icon" href="imgs/icons8-cursos-48.png" type="">
+    <!--css-->
+    <link rel="stylesheet" href="estilo.css">
+    <!--icones media social-->
+    <script src="https://kit.fontawesome.com/4535497667.js" crossorigin="anonymous"></script>
+    <!--jquery do modal form-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <title>Amaral_DSA</title>
+</head>
+    <div id="boasvindas">
+        <h1> seja bem vindx ☺</h1>
+    </div>
+<body>
+    <nav class="navbar">
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#apresentacao">Inicio</a></li>
+                <li><a href="#objetivos">Objetivo</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="apresentacao">
+        <div>
+            <p class="textoapresentaçao">Eu sou a Débora e este é um lugar que você saberá um pouco sobre mim !</p>
+        </div>
+        
+        <div class="img1">
+            <img src="imgs/minha_fota.jpeg">
+        </div>
+        
+    </section>
+
+    <section id="objetivos">
+        <div class="titulo">
+            <h3>Objetivo •</h3>
+        </div>
+        <div class="msgobjetivo">
+            <p>Portifólio desenvolvido com o intuito de demonstrar os projetos desenvolvidos no ultimo ano até o momento. Iniciante na área de programação e progredindo cada vez mais com várias tecnologias e ferramentas. Concluindo o curso da Fabrica de Software de Tecnico de Desenvolvimento de Sistemas do SENAC HUB ACADEMY</p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="tituloprojetos">
+            <h3>Projetos Realizados •</h3>
+        </div>
+
+        <div class="carrossel-slides">
+            <div class="slider">
+                <div class="slides">
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+    
+                    <div class="item first"><img src="imgs/python.png" width="650" height="550" alt=""></div>
+                    <div class="item"><img src="imgs/requisito jera.PNG" width="650" height="550" alt=""></div>
+                    <div class="item"><img src="imgs/UseCaseDiagram1a.png" width="450" height="550" alt=""></div>
+                    <div class="item"><img src="imgs/hubkey manual.PNG" width="450" height="550" alt=""></div>
+                    <div class="item"><img src="imgs/TELA 3 CHAVES.png" width="650" height="550" alt=""></div>
+                    <div class="item"><img src="imgs/banco de dados 2.PNG" width="650" height="550" alt=""></div>
+                    <div class="item"><img src="imgs/tela kits jera.png" width="650" height="550" alt=""></div>
+                    <div class="item"><img src="imgs/react native.png" width="450" height="550" alt=""></div>
+    
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                        <div class="auto-btn6"></div>
+                        <div class="auto-btn7"></div>
+                        <div class="auto-btn8"></div>
+                    </div>
+    
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                        <label for="radio6" class="manual-btn"></label>
+                        <label for="radio7" class="manual-btn"></label>
+                        <label for="radio8" class="manual-btn"></label>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </section>
+
+    <section id="cardhover">
+        <div class="carddev">
+            <ul class="ul">
+                <li>
+                    <i class="fa-brands fa-github"><a href=""></a></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram-square"><a href="https://www.instagram.com/debooramaral/"></a></i>
+                </li>
+            </ul>
+            <img src="imgs/1616366778430.jpg" alt="">
+            <div class="con-text">
+                <h2>
+                    DESENVOLVEDORA
+                </h2>
+                <p class="cardp">
+                    Psicóloga por formação, não tive oportunidade de atuar na área e realizei um sonho de migrar para o mundo da tecnologia ♥
+                    <button id="login">
+                        Faça Login
+                    </button>
+                </p>
+
+                <div id="login-modal">
+                    <div class="modal">
+                        <div class="top-form">
+                            
+                            <div class="login-form">
+                                <h3>Insira Seus Dados</h3>
+                                <form action="">
+                                    <input type="text" class="form-control" placeholder="Nome de Usuário ou Email">
+                                    <input type="password" class="form-control" placeholder="Senha">
+                                    <button type="button" class="enviar-btn">Cadastrar</button>
+                                </form>
+                            </div>
+                            <div class="close-modal">
+                                &#10006;
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+
+                    $(function(){
+                        $('#login-show').click(function(){
+                            $('#login-modal').fadeIn().css("display", "flex");
+                        });
+
+                        $('.close-modal').click(function(){
+                            $('#login-modal').fadeOut();
+                        });
+                    });
+
+                </script>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="form-login">
+        
+    </section>
+
+    <section id="destaques">
+        <div class="titulodestaques">
+            <h3>Destaques •</h3>
+        </div>
+
+        <div class="destaques-item">
+            <div>
+                <img class="img2" src="imgs/1634608334986_2.jpg">
+            </div>
+            <div>
+                <img class="img3" src="imgs/1648683427510_2.jpg" alt="">
+            </div>
+            <div>
+                <img class="img4" src="imgs/1645395871606_2.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
+
+<!--https://fontawesome.com/kits/4535497667/use?welcome=yes conta kshfhfhdnnbbb-->
+<!--video do modal: https://www.youtube.com/watch?v=LHDWpPHyf0A&ab_channel=DavidGTech-->

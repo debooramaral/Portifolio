@@ -1,0 +1,19 @@
+XAMPP - ao iniciar tive que mudar a porta do apache de 80 para 8080, e abrir no web mudando tb.
+
+• criando a base:
+
+CREATE DATABASE Portifolio;
+CREATE TABLE usuario(id_usuario int PRIMARY KEY NOT null, nome varchar (50), email varchar (100), senha varchar (30)
+);
+
+• criando o php
+
+TESTE
+	http://localhost:8080/Conex%C3%A3oPHP-Portifolio/olamundo.php
+
+• base do portifolio
+	http://localhost:8080/Conex%c3%a3oPHP-Portifolio/
+
+video: https://www.youtube.com/watch?v=zsxAfx6xLdQ&ab_channel=Andr%C3%A9iaMacieldaSilva
+	a conexão pode ser feita por meio de arquivo separado ou entao
+	por meio de class (esta é que utilizamos)
